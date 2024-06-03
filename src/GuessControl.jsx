@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import Button from "./Button";
 
-const GuessControl = (onGuess) => {
+const GuessControl = ({ onGuess }) => {
   const [currentGuess, setCurrentGuess] = useState("");
 
   const handleInputChange = (event) => {
