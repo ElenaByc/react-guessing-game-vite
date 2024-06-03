@@ -37,7 +37,7 @@ const NumberGuessingGame = () => {
 
   return (
     <>
-      <h2>I'm thinking of a number from 1 to 100.</h2>
+      <h2>I&apos;m thinking of a number from 1 to 100.</h2>
       <h2>
         Can you guess the number I am thinking of in {MAX_ATTEMPTS} tries?
       </h2>
